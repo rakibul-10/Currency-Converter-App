@@ -1,0 +1,117 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f8ff; /* better than aliceblue for accessibility */
+}
+
+/* Container */
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-width: 320px;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+/* Form */
+.converter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Form Groups */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Input */
+input[type="number"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+}
+
+/* Dropdowns container */
+.dropdowns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Currency Selector */
+.currency .select-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+}
+
+/* Flag Image */
+.currency img {
+    width: 2rem;
+    height: auto;
+}
+
+/* Select */
+select {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background: transparent;
+}
+
+/* Icon */
+.dropdowns i {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+/* Message */
+.msg {
+    text-align: center;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Button */
+button {
+    padding: 0.75rem;
+    background-color: #af4d98;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9b3d82;
+}
